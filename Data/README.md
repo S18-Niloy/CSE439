@@ -6,7 +6,7 @@ The dataset used in this project consists of aerial imagery of Dubai obtained by
 
 To download the dataset, please visit the following link:
 
-[Dataset Download Link]([https://example.com/dataset](https://www.kaggle.com/datasets/humansintheloop/semantic-segmentation-of-aerial-imagery))
+[Dataset Download Link](https://www.kaggle.com/datasets/humansintheloop/semantic-segmentation-of-aerial-imagery))
 
 Once you have downloaded the dataset, extract the files to a directory of your choice. Make sure to maintain the folder structure as described in the project documentation.
 
