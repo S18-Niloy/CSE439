@@ -19,7 +19,7 @@ After loading the dataset, a sample image and its corresponding mask are visuali
 
 The visualization provides an overview of the dataset and helps in understanding the distribution and characteristics of the images and masks.
 
-
+![Example Image](from_eda.png)
 
 ## Dataset Preprocessing
 
