@@ -12,7 +12,7 @@ The model used for training is loaded from a pre-trained file (path_to_unet_mode
 # Training 
 The training process involves compiling the model using the Adam optimizer with a learning rate of 1e-4 and binary cross-entropy loss function. The fit() function is then used to train the model on the training data for 5 epochs with a batch size of 16. Validation data is provided to monitor the model's performance during training.
 
-(image)[Train_Unet.png]
+!(image)[Train_Unet.png]
 
 # Saving the Model 
 After training, the trained model is saved to a file named trained_model.keras using the Keras save() function. This file contains the trained weights and architecture of the model for future use.
