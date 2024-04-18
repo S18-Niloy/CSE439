@@ -27,7 +27,8 @@ After preprocessing the dataset, the following files will be created:
 
 - `preprocessed_images.npy`: Contains preprocessed images.
 - `preprocessed_masks.npy`: Contains preprocessed masks.
-Sample Vegetation mask:
+
+# Sample Vegetation mask:
 
 ![Example Image](veg_mask.png)
 
