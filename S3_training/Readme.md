@@ -20,4 +20,4 @@ After training, the trained model is saved to a file named trained_model.keras u
 # Visualization
 The training and validation loss curves are plotted using Matplotlib to visualize the training progress. The x-axis represents the number of epochs, while the y-axis represents the corresponding loss values for both training and validation data.
 
-![image](Visualization.png)
+![image](Visualization_Unet.png)
