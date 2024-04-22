@@ -1,4 +1,4 @@
-This neural network training script utilizes TensorFlow and Keras libraries for developing and training a U-Net model. The U-Net architecture is commonly used for semantic segmentation tasks, particularly in medical image analysis.
+This neural network training script utilizes TensorFlow and Keras libraries for developing and training a U-Net, U-Net++, Resnet model
 
 ```bash
 pip install numpy scikit-learn tensorflow matplotlib
