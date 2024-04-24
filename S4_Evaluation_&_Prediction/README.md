@@ -19,7 +19,7 @@ The model's performance was evaluated using both a validation set and a separate
 
 Prediction was performed on a randomly selected sample from the test set. The original image, ground truth mask, and predicted mask overlaid on the original image are visualized to demonstrate the model's segmentation performance.
 
-![image](unet_pred.png)
+![image](Photos/unet_pred.png)
 
 
 # Evaluation and Prediction (Unet++)
@@ -39,7 +39,7 @@ The model's performance was evaluated using both a validation set and a separate
 
 Prediction was performed on a randomly selected sample from the test set. The original image, ground truth mask, and predicted mask overlaid on the original image are visualized to demonstrate the model's segmentation performance.
 
-![image](unetpp_pred.png)
+![image](Photos/unetpp_pred.png)
 
 
 # Evaluation and Prediction (ResUNet)
@@ -67,10 +67,10 @@ The model's performance was evaluated using both a validation set and a separate
 Prediction was performed on a randomly selected sample from the test set. The original image, ground truth mask, and predicted mask overlaid on the original image are visualized to demonstrate the model's segmentation performance.
 
 ### First step sample image
-![image](Resnet_pred.png)
+![image](Photos/Resnet_pred.png)
 
 ### Second step sample image
-![image](ResUnet_final_pred.png)
+![image](Photos/ResUnet_final_pred.png)
 
 # Fusion
 
@@ -79,4 +79,4 @@ Prediction was performed on a randomly selected sample from the test set. The or
 - Ensamble loss : 0.43
 - Ensamble Accuracy : 0.76
 
-![image](Fusion.PNG)
+![image](Photos/Fusion.PNG)
