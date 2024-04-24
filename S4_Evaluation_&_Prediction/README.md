@@ -44,7 +44,7 @@ Prediction was performed on a randomly selected sample from the test set. The or
 
 # Evaluation and Prediction (ResUNet)
 
-## Validation and Test Results (first Step)
+## Validation and Test Results (First Step)
 
 - **Validation Loss**: 4.38
 - **Validation Accuracy**: 0.34
@@ -71,3 +71,12 @@ Prediction was performed on a randomly selected sample from the test set. The or
 
 ### Second step sample image
 ![image](ResUnet_final_pred.png)
+
+# Fusion
+
+## Results:
+
+- Ensamble loss : 0.43
+- Ensamble Accuracy : 0.76
+
+![image](Fusion.png)
