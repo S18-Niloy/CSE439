@@ -14,7 +14,7 @@ The model used for training is loaded from a pre-trained file (path_to_unet_mode
 ## Training 
 The training process involves compiling the model using the Adam optimizer with a learning rate of 1e-4 and binary cross-entropy loss function. The fit() function is then used to train the model on the training data for 20 epochs with a batch size of 16. Validation data is provided to monitor the model's performance during training.
 
-![image](Train_Unet.png)
+![image](Photos/Train_Unet.png)
 
 ## Saving the Model 
 After training, the trained model is saved to a file named trained_model.keras using the Keras save() function. This file contains the trained weights and architecture of the model for future use.
@@ -22,7 +22,7 @@ After training, the trained model is saved to a file named trained_model.keras u
 ## Visualization
 The training and validation loss curves are plotted using Matplotlib to visualize the training progress. The x-axis represents the number of epochs, while the y-axis represents the corresponding loss values for both training and validation data.
 
-![image](Visualization_Unet.png)
+![image](Photos/Visualization_Unet.png)
 
 
 # Unet++
@@ -33,7 +33,7 @@ The model used for training is loaded from a pre-trained file (path_to_unet_plus
 ## Training 
 The training process involves compiling the model using the Adam optimizer with a learning rate of 1e-4 and binary cross-entropy loss function. The fit() function is then used to train the model on the training data for 20 epochs with a batch size of 16. Validation data is provided to monitor the model's performance during training.
 
-![image](Train_Unetpp.png)
+![image](Photos/Train_Unetpp.png)
 
 ## Saving the Model 
 After training, the trained model is saved to a file named trained_model.keras using the Keras save() function. This file contains the trained weights and architecture of the model for future use.
@@ -41,7 +41,7 @@ After training, the trained model is saved to a file named trained_model.keras u
 ## Visualization
 The training and validation loss curves are plotted using Matplotlib to visualize the training progress. The x-axis represents the number of epochs, while the y-axis represents the corresponding loss values for both training and validation data.
 
-![image](Visualization_Unetpp.png)
+![image](Photos/Visualization_Unetpp.png)
 
 # ResUNet (First step with poor result)
 
@@ -51,7 +51,7 @@ The model used for training is loaded from a pre-trained file (path_to_resunet.k
 ## Training 
 The training process involves compiling the model using the Adam optimizer with a learning rate of 1e-4 and binary cross-entropy loss function. The fit() function is then used to train the model on the training data for 20 epochs with a batch size of 16. Validation data is provided to monitor the model's performance during training.
 
-![image](Train_resnet.png)
+![image](Photos/Train_resnet.png)
 
 ## Saving the Model 
 After training, the trained model is saved to a file named trained_model.keras using the Keras save() function. This file contains the trained weights and architecture of the model for future use.
@@ -59,7 +59,7 @@ After training, the trained model is saved to a file named trained_model.keras u
 ## Visualization
 The training and validation loss curves are plotted using Matplotlib to visualize the training progress. The x-axis represents the number of epochs, while the y-axis represents the corresponding loss values for both training and validation data.
 
-![image](Visualization_resnet.png)
+![image](Photos/Visualization_resnet.png)
 
 # ResUNet (Edited - Good result)
 
@@ -76,9 +76,9 @@ The training and validation loss curves are plotted using Matplotlib to visualiz
  - ModelCheckpoint: Saves the best model during training.
  - EarlyStopping: Stops training if there's no improvement in validation loss after a certain number of epochs (patience).
 
-![image](Train_resunet_final.png)
+![image](Photos/Train_resunet_final.png)
 
 ## Visualization
 The training and validation loss curves are plotted using Matplotlib to visualize the training progress. The x-axis represents the number of epochs, while the y-axis represents the corresponding loss values for both training and validation data.
 
-![image](Visualization_resnet_final.png)
+![image](Photos/Visualization_resnet_final.png)
