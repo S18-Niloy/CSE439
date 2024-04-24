@@ -42,14 +42,21 @@ Prediction was performed on a randomly selected sample from the test set. The or
 ![image](unetpp_pred.png)
 
 
-# Evaluation and Prediction (Resnet)
+# Evaluation and Prediction (ResUNet)
 
-## Validation and Test Results
+## Validation and Test Results (first Step)
 
 - **Validation Loss**: 4.38
 - **Validation Accuracy**: 0.34
 - **Test Loss**: 3.05
 - **Test Accuracy**: 0.59
+
+## Validation and Test Results (Second Step)
+
+- **Validation Loss**: 0.46
+- **Validation Accuracy**: 0.79
+- **Test Loss**: 0.34
+- **Test Accuracy**: 0.88
 
 ## Evaluation
 
@@ -59,4 +66,8 @@ The model's performance was evaluated using both a validation set and a separate
 
 Prediction was performed on a randomly selected sample from the test set. The original image, ground truth mask, and predicted mask overlaid on the original image are visualized to demonstrate the model's segmentation performance.
 
+### First step sample image
 ![image](Resnet_pred.png)
+
+### Second step sample image
+![image](ResUnet_final_pred.png)
