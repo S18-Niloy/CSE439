@@ -43,10 +43,10 @@ The training and validation loss curves are plotted using Matplotlib to visualiz
 
 ![image](Visualization_Unetpp.png)
 
-# Resnet
+# ResUNet (First step with poor result)
 
 ## Model 
-The model used for training is loaded from a pre-trained file (path_to_resnet.keras). Ensure that this file exists and contains the architecture and weights of the U-Net model.
+The model used for training is loaded from a pre-trained file (path_to_resunet.keras). Ensure that this file exists and contains the architecture and weights of the U-Net model.
 
 ## Training 
 The training process involves compiling the model using the Adam optimizer with a learning rate of 1e-4 and binary cross-entropy loss function. The fit() function is then used to train the model on the training data for 20 epochs with a batch size of 16. Validation data is provided to monitor the model's performance during training.
@@ -61,3 +61,24 @@ The training and validation loss curves are plotted using Matplotlib to visualiz
 
 ![image](Visualization_resnet.png)
 
+# ResUNet (Edited - Good result)
+
+
+## Hyperparameters
+- Batch size: 16
+- Epochs: 20
+- Optimizer: Adam
+- Learning rate: 0.0001
+- Loss function: Binary Crossentropy
+- Metrics: Accuracy
+  
+## Callbacks
+ - ModelCheckpoint: Saves the best model during training.
+ - EarlyStopping: Stops training if there's no improvement in validation loss after a certain number of epochs (patience).
+
+![image](Train_resunet_final.png)
+
+## Visualization
+The training and validation loss curves are plotted using Matplotlib to visualize the training progress. The x-axis represents the number of epochs, while the y-axis represents the corresponding loss values for both training and validation data.
+
+![image](Visualization_resnet_final.png)
