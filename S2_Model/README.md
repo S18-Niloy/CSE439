@@ -4,7 +4,7 @@ This repository contains the implementation of three deep learning models for se
 
 1. UNet
 2. UNet++
-3. ResNet
+3. ResUNet
 
 ## Model Architectures
 
@@ -20,7 +20,7 @@ To use the models, follow these steps:
 
 1. Open the respective Jupyter Notebook for the desired model.
 2. Run the notebook to train the model on your dataset.
-3. Save the trained model as `unet_model.keras`, `unet_plusplus.keras`, or `resnet.keras` depending on the model.
+3. Save the trained model as `unet_model.keras`, `unet_plusplus.keras`, or `resunet.keras` depending on the model.
 
 ## Dependencies
 
