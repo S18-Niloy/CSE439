@@ -79,4 +79,4 @@ Prediction was performed on a randomly selected sample from the test set. The or
 - Ensamble loss : 0.43
 - Ensamble Accuracy : 0.76
 
-![image](Fusion.png)
+![image](Fusion.PNG)
